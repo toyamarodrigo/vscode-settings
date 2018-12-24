@@ -52,7 +52,7 @@
 
 ---
 
-## Extensions instalation
+## Extensions installation
 
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
   - Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
