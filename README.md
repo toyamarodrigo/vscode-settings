@@ -70,20 +70,20 @@
   - Auto rename paired HTML/XML tag
 - [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
   - Parse CSS and add vendor prefixes automatically.
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-  - Beautify code in place for VS Code
-- [Bootstrap 4](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode)
-  - Bootstrap 4 snippets based on documentation + Font awesome 4 + Font Awesome 5 Free & Pro snippets
+- [Babel ES6/ES7](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring) 
+  - Adds JS Babel es6/es7 syntax coloring.
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
   - A customizable extension for colorizing matching brackets
-- [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
-  - Dart language support and debugger for Visual Studio Code.
+- [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
+  - Helper with GUI to generate color codes such as CSS color notations.
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
   - Support for dotenv file syntax
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - Integrates ESLint into VS Code
-- [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
-  - Flutter support and debugger for Visual Studio Code.
+- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+  - Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax.
+- [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql)
+  - GraphQL extension for VSCode adds syntax highlighting, validation, and language features like go to definition, hover information and autocompletion for graphql projects. This extension also...
 - [FontSize](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
   - Change the font size with keyboard shortcuts.
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
@@ -118,12 +118,20 @@
   - Atom's iconic One Dark theme for Visual Studio Code
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   - Visual Studio Code plugin that autocompletes filenames
+- [PHP Extension Pack](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack)
+  - Everything you need for PHP development.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - Code formatter using prettier.
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   - Live Scratchpad for JavaScript.
 - [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
   - A collection of extensions for developing Spring Boot applications
 - [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-spring-boot)
   - Provides validation and content assist for Spring Boot `application.properties`, `application.yml` properties files. As well as Boot-specific support for `.java` files.
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+  - highlight TODOs, FIXMEs, and any keywords, annotations...
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+  - Syntax highlighting for styled-components.
 
 **For fast instalation create a vscode-extensions.txt and paste all the following extensions in it.**
 
@@ -131,12 +139,16 @@
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 mrmlnc.vscode-autoprefixer
-hookyqr.beautify
+dzannotti.vscode-babel-coloring
 coenraads.bracket-pair-colorizer
-dart-code.dart-code
+prisma.vscode-graphql
 dbaeumer.vscode-eslint
 mikestead.dotenv
-dart-code.flutter
+dsznajder.es7-react-js-snippets
+felixfbecker.php-pack
+esbenp.prettier-vscode
+wayou.vscode-todo-highlight
+jpoissonnier.vscode-styled-components
 fosshaas.fontsize-shortcuts
 wix.vscode-import-cost
 zignd.html-css-class-completion
