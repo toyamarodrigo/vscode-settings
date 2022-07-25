@@ -1,55 +1,95 @@
-
+{
     "editor.snippetSuggestions": "top",
-    "editor.fontFamily": "Anonymous Pro",
+    "editor.fontFamily": "Victor Mono",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
     "editor.fontSize": 14,
+    "editor.fontWeight": 500,
     "editor.formatOnPaste": false,
     "editor.minimap.enabled": false,
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "editor.lineHeight": 0,
     "editor.wordWrap": "on",
     "terminal.integrated.fontSize": 15,
     "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 0,
     "emmet.showAbbreviationSuggestions": false,
-    "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#C6FF00",
-        "list.activeSelectionForeground": "#C6FF00",
-        "list.inactiveSelectionForeground": "#C6FF00",
-        "list.highlightForeground": "#C6FF00",
-        "scrollbarSlider.activeBackground": "#C6FF0050",
-        "editorSuggestWidget.highlightForeground": "#C6FF00",
-        "textLink.foreground": "#C6FF00",
-        "progressBar.background": "#C6FF00",
-        "pickerGroup.foreground": "#C6FF00",
-        "tab.activeBorder": "#C6FF00",
-        "notificationLink.foreground": "#C6FF00"
+    "workbench.colorCustomizations": {},
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
     },
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.workingDirectories": [
+        "./src"
     ],
-    "java.errors.incompleteClasspath.severity": "ignore",
     "workbench.startupEditor": "newUntitledFile",
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home",
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    }
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "todohighlight.isEnable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "settingsSync.ignoredExtensions": [],
+    "terminal.integrated.fontFamily": "monospace",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "javascript": true,
+        "javascriptreact": true,
+        "typescript": true,
+        "typescriptreact": true,
+        "json": true,
+        "css": true,
+    },
+    "editor.autoClosingBrackets": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.linkedEditing": true,
 }
