@@ -23,7 +23,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
     },
-    "eslint.alwaysShowStatus": true,
     "eslint.format.enable": true,
     "eslint.workingDirectories": [
         "./src"
@@ -118,9 +117,6 @@
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   - ID: pranaygp.vscode-css-peek
   - Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
-- [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
-  - ID: icrawl.discord-vscode
-  - Update your discord status with a rich presence.
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
   - ID: mikestead.dotenv
   - Support for dotenv file syntax
@@ -193,9 +189,6 @@
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
   - ID: wayou.vscode-todo-highlight
   - highlight TODOs, FIXMEs, and any keywords, annotations...
-- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-  - ID: jpoissonnier.vscode-styled-components
-  - Syntax highlighting for styled-components.
 
 **For fast instalation create a vscode-extensions.txt and paste all the following extensions in it.**
 
@@ -205,7 +198,6 @@ mrmlnc.vscode-autoprefixer
 aaron-bond.better-comments
 anseki.vscode-color
 pranaygp.vscode-css-peek
-icrawl.discord-vscode
 mikestead.dotenv
 usernamehw.errorlens
 dsznajder.es7-react-js-snippets
@@ -230,7 +222,6 @@ esbenp.prettier-vscode
 WallabyJs.quokka-vscode
 rangav.vscode-thunder-client
 wayou.vscode-todo-highlight
-jpoissonnier.vscode-styled-component
 ```
 
 and then run :
